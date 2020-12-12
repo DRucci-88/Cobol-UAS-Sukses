@@ -7,3 +7,5 @@ Link Hosting: https://drucci-88.github.io/Cobol-UAS-Sukses/
 Finishing About Us Pages until clear
 Amin
 Amin
+sumimaseewwwwww
+sumimasew lagi
