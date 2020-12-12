@@ -9,3 +9,5 @@ Amin
 Amin
 sumimaseewwwwww
 sumimasew lagi
+
+kalau teks ini muncul, berarti kita bisa langsung ngerjain tanpa pull from origin lagi
