@@ -1,9 +1,4 @@
 # Cobol-UAS-Sukses
 
-Joel suka Embeyen
-
-Embeyen tidak suka joel
-
-joel ganteng
-
-test
+History:
+12-12-2020 : Finishing About Us Pages
