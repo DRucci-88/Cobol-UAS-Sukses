@@ -4,10 +4,8 @@ Link Hosting: https://drucci-88.github.io/Cobol-UAS-Sukses/
 # History:
 
 12-12-2020 : 
-Finishing About Us Pages until clear
-Amin
-Amin
-sumimaseewwwwww
-sumimasew lagi
 
-kalau teks ini muncul, berarti kita bisa langsung ngerjain tanpa pull from origin lagi
+	Sudah bisa Sinkron Github
+	Finishing About Us Pages until clear
+	Fitur sudah terbentuk 3 dari 5
+
