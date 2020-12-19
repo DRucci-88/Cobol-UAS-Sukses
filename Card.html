@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Sorting data</title>
+    <title>Cards</title>
     <meta charset="UTF-8">
 
     <!-- Boostrap CSS -->
@@ -28,28 +28,104 @@
 </head>
 
 <style>
-    body {
-        background-color: black;
-        /* color: white; */
+    body
+
+    /*fungsi animasi*/
+        {
+        background: linear-gradient(50deg, #ff3f3f, #0f0f0f);
+        background-size: 1000% 1000%;
+
+        animation: animasibg 3s ease infinite;
+        display: grid;
+        place-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: bold;
+        color: #1b1b1b;
     }
+
+    @keyframes animasibg {
+        0% {
+            background-position: 0% 87%
+        }
+
+        50% {
+            background-position: 100% 14%
+        }
+
+        100% {
+            background-position: 0% 87%
+        }
+    }
+
+    card {}
 </style>
 
 <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">COVID.API</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Fitur
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="views/TimeSeries.html">Info Covid Harian</a>
+                        <a class="dropdown-item" href="benji.html">Benjamin</a>
+                        <a class="dropdown-item" href="joel.html">Joel</a>
+                        <a class="dropdown-item" href="rucci.html">Rucci</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About Us
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="chill.html">Arcrilles</a>
+                        <a class="dropdown-item" href="benji.html">Benjamin</a>
+                        <a class="dropdown-item" href="joel.html">Joel</a>
+                        <a class="dropdown-item" href="rucci.html">Rucci</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br><br><br>
+
+    <center>
+        <h2 style="color: aliceblue;">Data yang diambil Diurutkan dari Kasus Tertinggi Hingga Kasus Terendah</h2>
+    </center>
     <div ng-app='app' ng-controller="tableAPI">
         <div class="row" style="padding: 10px;">
             <div class="col-sm-4" ng-repeat='data in provinsi' style="padding-bottom: 10px">
                 <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">{{data.provinsi}}</h5>
-                        <p class="card-text">
-                            <p>Kasus Covid-19 yang ada: {{data.kasus}}</p>
-                        </p>
+                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">{{data.provinsi}}</h5>
+                            <p class="card-text">
+                             <p>Kasus Covid-19 yang ada: {{data.kasus}}</p>
+                             <p>Jumplah Pasien yang Sedang Dirawat: {{data.dirawat}}</p>
+                             <p>Jumlah pasien Sembuh: {{data.sembuh}}</p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+
 
 </body>
 
