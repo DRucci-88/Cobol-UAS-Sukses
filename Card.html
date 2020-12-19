@@ -35,18 +35,7 @@
 </style>
 
 <body>
-    <div class="dropdown show text-center" style="padding: 20px 0px 50px 0px;">
-        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Dropdown link
-        </a>
 
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item" ng-click="">Kasus</a>
-            <a class="dropdown-item" ng-click="">Dirawat</a>
-            <a class="dropdown-item" ng-click="">Sembuh</a>
-        </div>
-    </div>
     <div ng-app='app' ng-controller="tableAPI">
         <div class="row" style="padding: 10px;">
             <div class="col-sm-4" ng-repeat='data in provinsi' style="padding-bottom: 10px">
