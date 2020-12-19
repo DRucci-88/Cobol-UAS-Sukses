@@ -3,6 +3,8 @@
   <title>Time Series</title>
   <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   <style>
     body {
       background-color: rgb(114, 114, 114);
@@ -71,6 +73,45 @@
 </head>
 
 <body>
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">COVID.API</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Fitur
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="views/TimeSeries.html">Info Covid Harian</a>
+              <a class="dropdown-item" href="benji.html">Benjamin</a>
+              <a class="dropdown-item" href="joel.html">Joel</a>
+              <a class="dropdown-item" href="rucci.html">Rucci</a>
+            </div>
+          </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About Us
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="chill.html">Arcrilles</a>
+            <a class="dropdown-item" href="benji.html">Benjamin</a>
+            <a class="dropdown-item" href="joel.html">Joel</a>
+            <a class="dropdown-item" href="rucci.html">Rucci</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<br><br><br><br>
+
   <div id="myChart" class="chart--container" ng-app="app" ng-controller="tableAPI">
     <div id="date-picker-container">
       <span data-period="1" class="active">All Time</span>
