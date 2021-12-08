@@ -1,7 +1,10 @@
 # UAS
 ## Purposes
 This File was meant for out final Exam.
-This Website was Hosted on Github, and using:
+This Website was Hosted on Github
+> Link: https://drucci-88.github.io/Cobol-UAS-Sukses/
+
+## framework:
 > AngularJS
 
 ## The Website has features such as:
@@ -20,7 +23,7 @@ This Website was Hosted on Github, and using:
 [Joel](https://github.com/joelalerga)
 
 # No Time for Us To Sleep In The Night
-Link Hosting: https://drucci-88.github.io/Cobol-UAS-Sukses/
+
 
 ## History:
 
