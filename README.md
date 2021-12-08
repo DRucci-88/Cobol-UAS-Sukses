@@ -1,7 +1,28 @@
+# UAS
+## Purposes
+This File was meant for out final Exam.
+This Website was Hosted on Github, and using:
+> AngularJS
+
+## The Website has features such as:
+> Info Covid per Hari
+
+> Jumlah Kematian Tertinggi
+
+> Info Covid Tiap Provinsi
+
+> Tabel Data Covid
+
+##Credits:
+[Arcriles](https://github.com/arcriles)
+[Benjamin ](https://github.com/zeonplamo)
+[DewaRuci](https://github.com/DRucci-88)
+[Joel](https://github.com/joelalerga)
+
 # No Time for Us To Sleep In The Night
 Link Hosting: https://drucci-88.github.io/Cobol-UAS-Sukses/
 
-# History:
+## History:
 
 12-12-2020 : 
 
