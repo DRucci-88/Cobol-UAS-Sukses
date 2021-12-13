@@ -16,7 +16,7 @@ This Website was Hosted on Github
 
 > Tabel Data Covid
 
-##Credits:
+## Credits:
 [Arcriles](https://github.com/arcriles)
 [Benjamin ](https://github.com/zeonplamo)
 [DewaRuci](https://github.com/DRucci-88)
